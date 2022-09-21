@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_DHT22.h
- * @brief 这是一个温湿度传感器库
+ * @brief This is a temperature & humidity sensorlibrary  
  * @copyright	Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license The MIT License (MIT)
  * @author [PengKaixing]kaixing.peng@dfrobot.com)
@@ -35,7 +35,7 @@ class DFRobot_DHT22
 public:
   /**
    * @struct DHT22_ERROR_t
-   * @brief 函数错误类型的枚举
+   * @brief ENUM for error functions
    */
   typedef enum
   {
@@ -53,8 +53,8 @@ public:
 
   /**
    * @fn readData
-   * @brief 获取传感器数据
-   * @return DHT22_ERROR_t类型，表示返回错误类型
+   * @brief Get sensor data 
+   * @return DHT22_ERROR_t type, return error type 
    * @ DHT_ERROR_NONE
    * @ DHT_BUS_HUNG
    * @ DHT_ERROR_NOT_PRESENT
@@ -68,42 +68,42 @@ public:
 
   /**
    * @fn getHumidityInt
-   * @brief 获取传感器湿度
-   * @return  short int 类型，表示返回传感器湿度
+   * @brief Get sensor humidity
+   * @return  short int type, return sensor humidity 
    */
   short int getHumidityInt(void);
 
   /**
    * @fn getTemperatureCInt
-   * @brief 获取传感器温度
-   * @return  short int 类型，表示返回传感器温度
+   * @brief Get sensor temperature 
+   * @return  short int type, return sensor temperature 
    */
   short int getTemperatureCInt(void);
 
   /**
    * @fn clockReset
-   * @brief 计时全局变量复位
+   * @brief Reset clock global variable
    */
   void clockReset(void);
 #if !defined(DHT22_NO_FLOAT)
   /**
    * @fn getHumidity
-   * @brief 获取传感器湿度
-   * @return  float类型，表示返回传感器湿度
+   * @brief Get sensor humidity 
+   * @return  float type, return sensor humidity 
    */
   float getHumidity(void);
 
   /**
    * @fn getTemperatureC
-   * @brief 获取传感器温度(摄氏度)
-   * @return  float 类型，表示返回传感器温度
+   * @brief Get sensor temperature(Celsius)
+   * @return  float type, return sensor temperature 
    */
   float getTemperatureC(void);
 
   /**
    * @fn getTemperatureF
-   * @brief 获取传感器温度(华氏度)
-   * @return  float 类型，表示返回传感器温度
+   * @brief Get sensor temperature(Fahrenheit) 
+   * @return  float type, return sensor temperature 
    */
   float getTemperatureF(void);
 #endif
