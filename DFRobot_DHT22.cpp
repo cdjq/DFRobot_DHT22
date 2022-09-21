@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_DHT22.CPP
- * @brief 这是一个温湿度传感器库
+ * @brief This is a temperature & humidity sensor library 
  * @copyright	Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license The MIT License (MIT)
  * @author [PengKaixing]kaixing.peng@dfrobot.com)
