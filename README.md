@@ -6,7 +6,7 @@ DHT22 is a temperature & humidity sensor with calibration of digital signal outp
 The sensor includes a capacitive sensing element and an NTC temperature sensing element, which is connected to a high-performance 8bits microcontroller. Thus, the product features high quality, fast response, anti-interference ability, cost-effective advantages, etc. 
 Its single-wire serial interface makes the system integration simple and quick. With ultra-small size, low power consumption and up to 20m transmisstion distance, this sensor is ideal for various applications. Directly plug it onto the Arduino expansion shield, then you are ready to go. 
 
-DHT22 has relatively high accuracy, which can be replace of the SHT10 sensor. It gives excellent performance in projects with high measuring requirement of temperature and humdity. Combing it with the Arduino expansion board to relize more interactive effects. 
+DHT22 has relatively high accuracy, which can be a replace of the SHT10 sensor. It gives excellent performance in projects with high measuring requirement of temperature and humdity. Combing it with the Arduino expansion board to relize more interactive effects. 
 
 ![Product Image](./resources/images/SEN0137.png)
 
