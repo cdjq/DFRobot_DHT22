@@ -1,6 +1,6 @@
 /*!
  * @file getTemperatureHumidity.ino
- * @brief 获取当前环境温度和湿度
+ * @brief Get current ambient temperature and humidity  
  * @copyright	Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license The MIT License (MIT)
  * @author [PengKaixing]kaixing.peng@dfrobot.com)
